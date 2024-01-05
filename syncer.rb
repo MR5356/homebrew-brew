@@ -3,7 +3,7 @@ class Syncer < Formula
   homepage "https://github.com/MR5356/syncer"
   license "Apache-2.0"
 
-  bottle: unneeded
+  bottle :unneeded
 
   url "https://github.com/MR5356/syncer/releases/download/v1.0.0-release_build.81f53d4/syncer-darwin-amd64-build.81f53d4.tar.gz"
   sha256 x86_64: "3489ee2e1dc47aada289d3c3e2d18db3f7a24f3d8f00c7f248da3c3f13b21751"
