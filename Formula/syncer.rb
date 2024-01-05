@@ -12,6 +12,7 @@ class Syncer < Formula
   depends_on "go" => :build
 
   def install
+    puts "params: #{args}"
     ldflags = "-s -w -X github.com/MR5356/syncer/pkg/version.Version=#{version}"
     system "go", "build", *std_go_args(output: bin/"syncer", ldflags: ldflags), "cmd/syncer/syncer.go"
   end
