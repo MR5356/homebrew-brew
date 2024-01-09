@@ -14,6 +14,6 @@ class Syncer < Formula
   end
 
   test do
-    system "false"
+    system "syncer", "version"
   end
 end
