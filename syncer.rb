@@ -10,7 +10,7 @@ class Syncer < Formula
 
   def install
     ldflags = "-s -w -X github.com/MR5356/syncer/pkg/version.Version=#{version}"
-    system "go", "build", "-ldflags", ldflags, "-o", bin/"syncer"
+    system "go", "build", "-ldflags", ldflags, "-o", bin/"syncer" ./cmd/syncer
   end
 
   test do
