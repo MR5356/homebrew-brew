@@ -1,4 +1,4 @@
-class SyncerDarwin < Formula
+class Elune < Formula
   desc "Elune一站式运维工具平台, DevOps Tools"
   homepage "https://docker.ac.cn"
   url "https://github.com/MR5356/elune-aio/releases/download/v1.1.0-dev-build.1/elune-backend-darwin-amd64.tar.gz"
