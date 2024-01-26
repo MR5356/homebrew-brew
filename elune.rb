@@ -6,7 +6,7 @@ class Elune < Formula
   license "Apache-2.0"
 
   def install
-    bin.install "bin/elune-backend-darwin-amd64" => "elune"
+    bin.install "elune-backend-darwin-amd64" => "elune"
   end
 
   test do
